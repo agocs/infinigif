@@ -1,8 +1,16 @@
-from bottle import run, route
+from bottle import run, route, response
+from PIL import Image
+import StringIO
 
-@route('/<name>')
-def index(name):
-	return "Hello, " + name
+@route('/')
+def index():
+	response.content_type = "image/gif"
+	img = Image.new("RGB", (1000,2000), "#666666")
+	retString = StringIO.StringIO()
+	img.save(retString, "GIF")
+
+	return retString.getvalue()
+
 
 
 if __name__ == "__main__":
