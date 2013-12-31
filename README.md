@@ -28,7 +28,7 @@ How I run that?
  Status
  ------
 
- So far, we're just serving up one great grey gif. More gifs = the future!
+ So far, we're just serving up one gif, the color of which is based on your ip address. More gifs = the future!
 
  LEMME SEE
  =========
