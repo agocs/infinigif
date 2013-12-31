@@ -29,3 +29,10 @@ How I run that?
  ------
 
  So far, we're just serving up one great grey gif. More gifs = the future!
+
+ LEMME SEE
+ =========
+
+ http://162.243.76.63:4000/
+
+ Project is running here. It may or may not be up.
